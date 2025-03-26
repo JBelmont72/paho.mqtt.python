@@ -12,7 +12,7 @@ https://eclipse.dev/paho/files/paho.mqtt.python/html/migrations.html
 
 http://www.steves-internet-guide.com/mqtt-works/
 
-
+very helpful and direct reference: https://www.hivemq.com/blog/implementing-mqtt-in-python/
 '''
 import paho.mqtt.client as mqtt  
 
