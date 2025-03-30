@@ -13,23 +13,3 @@ https://eclipse.dev/paho/files/paho.mqtt.python/html/migrations.html
 http://www.steves-internet-guide.com/mqtt-works/
 
 very helpful and direct reference: https://www.hivemq.com/blog/implementing-mqtt-in-python/
-'''
-import paho.mqtt.client as mqtt  
-
-broker = "broker.hivemq.com"  
-port = 1883  
-topic = "motor/control"  
-
-# Create an MQTT client  
-client = mqtt.Client()  
-# client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)  
-
-# Connect to the broker  
-client.connect(broker, port, 60)  
-
-# Publish a message  
-client.publish(topic, "Turn Motor ON")  
-print(f"Message sent to topic '{topic}'")  
-
-# Disconnect  
-client.disconnect()

@@ -1,13 +1,11 @@
-'''
-python teacher. march 25,25  mircopython pico dc motor subscriber
-'''
 import network
 import time
-import 
+import secrets
 from umqtt.simple import MQTTClient
 from machine import Pin
 SSID=
 # Wi-Fi and MQTT settings
+
 SSID = "YOUR_WIFI_SSID"
 PASSWORD = "YOUR_WIFI_PASSWORD"
 BROKER = "broker.hivemq.com"
