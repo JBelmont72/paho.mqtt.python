@@ -4,7 +4,8 @@ the pico server with the led is 'led_mqtt_server.py' in this folder
 import paho.mqtt.client as mqtt
 
 # MQTT Settings
-BROKER = "broker.hivemq.com"    # Public broker
+# BROKER = "broker.hivemq.com"    # Public broker this is the publisher client python
+BROKER = "test.mosquitto.org"    # Public broker this is the publisher client python
 TOPIC = "led/control"           # Same topic as the subscriber
 
 # Create an MQTT client

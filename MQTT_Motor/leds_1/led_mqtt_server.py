@@ -5,7 +5,7 @@ import time
 from machine import Pin
 from umqtt.simple import MQTTClient
 
-# Wi-Fi and MQTT Settings
+# Wi-Fi and MQTT Settings  PICO SERVER SUBSCRIBER  Has the leds that respond to messages
 SSID = "Your_WiFi_SSID"         # Your Wi-Fi SSID
 PASSWORD = "Your_WiFi_Password" # Your Wi-Fi password
 BROKER = "broker.hivemq.com"    # Public MQTT broker

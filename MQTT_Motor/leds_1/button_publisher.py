@@ -7,7 +7,7 @@ when I hold the button to 1 when powered on.
 '''
 ## first is for regular button press, below this is for long button press
 '''
-import network
+import network      ## publisher with pico, pushbutton, client
 import time
 from machine import Pin
 from umqtt.simple import MQTTClient
